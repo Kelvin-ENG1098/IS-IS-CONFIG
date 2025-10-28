@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="3387774F-439C-4da1-9A58-9BBC35274CBC" name="R6" poe="0" model="Router" settings="" system_mac="54-89-98-6D-29-67" com_port="2005" bootmode="0" cx="1220.816406" cy="217.809494" edit_left="1247" edit_top="271">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="9E34A547-3359-4e02-9039-445CC1168771" name="R5" poe="0" model="Router" settings="" system_mac="54-89-98-51-7B-9C" com_port="2004" bootmode="0" cx="1038.000000" cy="217.000000" edit_left="1065" edit_top="271">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="CD154755-BA00-4e71-9391-37B67F335FF5" name="R4" poe="0" model="Router" settings="" system_mac="54-89-98-5A-25-2C" com_port="2003" bootmode="0" cx="775.000000" cy="217.000000" edit_left="802" edit_top="271">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="FAE25E92-727F-43dd-818F-9648481A2E60" name="R2" poe="0" model="Router" settings="" system_mac="54-89-98-46-1F-E4" com_port="2001" bootmode="0" cx="503.000000" cy="136.000000" edit_left="530" edit_top="190">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="36EBC0F2-DF73-456a-9ED7-D83386374636" name="R3" poe="0" model="Router" settings="" system_mac="54-89-98-03-17-48" com_port="2002" bootmode="0" cx="503.000000" cy="310.000000" edit_left="530" edit_top="364">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+        <dev id="8AD2A7E2-1FB0-4e0b-8056-BBAF2A3259AC" name="R1" poe="0" model="Router" settings="" system_mac="54-89-98-1B-73-74" com_port="2000" bootmode="0" cx="237.000000" cy="217.000000" edit_left="264" edit_top="271">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="4" />
+                <interface sztype="Serial" interfacename="Serial" count="4" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="8AD2A7E2-1FB0-4e0b-8056-BBAF2A3259AC" destDeviceID="FAE25E92-727F-43dd-818F-9648481A2E60">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="1" srcBoundRect_X="305.310913" srcBoundRect_Y="231.420364" srcOffset_X="-9.000000" srcOffset_Y="-28.000000" tarIndex="3" tarBoundRectIsMoved="1" tarBoundRect_X="488.689087" tarBoundRect_Y="175.579636" tarOffset_X="-49.000000" tarOffset_Y="17.000000" />
+        </line>
+        <line srcDeviceID="8AD2A7E2-1FB0-4e0b-8056-BBAF2A3259AC" destDeviceID="36EBC0F2-DF73-456a-9ED7-D83386374636">
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="1" srcBoundRect_X="304.764130" srcBoundRect_Y="258.252136" srcOffset_X="-4.000000" srcOffset_Y="15.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="489.235870" tarBoundRect_Y="322.747864" tarOffset_X="-39.000000" tarOffset_Y="-23.000000" />
+        </line>
+        <line srcDeviceID="FAE25E92-727F-43dd-818F-9648481A2E60" destDeviceID="CD154755-BA00-4e71-9391-37B67F335FF5">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="1" srcBoundRect_X="571.387573" srcBoundRect_Y="175.324982" srcOffset_X="-3.000000" srcOffset_Y="13.000000" tarIndex="3" tarBoundRectIsMoved="1" tarBoundRect_X="760.612427" tarBoundRect_Y="231.675018" tarOffset_X="-35.000000" tarOffset_Y="-25.000000" />
+        </line>
+        <line srcDeviceID="36EBC0F2-DF73-456a-9ED7-D83386374636" destDeviceID="CD154755-BA00-4e71-9391-37B67F335FF5">
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="1" srcBoundRect_X="570.861328" srcBoundRect_Y="323.029022" srcOffset_X="-13.000000" srcOffset_Y="-24.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="761.138672" tarBoundRect_Y="257.970978" tarOffset_X="-35.000000" tarOffset_Y="21.000000" />
+        </line>
+        <line srcDeviceID="CD154755-BA00-4e71-9391-37B67F335FF5" destDeviceID="9E34A547-3359-4e02-9039-445CC1168771">
+            <interfacePair lineName="Copper" srcIndex="4" srcBoundRectIsMoved="1" srcBoundRect_X="845.183777" srcBoundRect_Y="244.000000" srcOffset_X="-1.000000" srcOffset_Y="4.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="1021.816223" tarBoundRect_Y="244.000000" tarOffset_X="-42.000000" tarOffset_Y="3.000000" />
+        </line>
+        <line srcDeviceID="9E34A547-3359-4e02-9039-445CC1168771" destDeviceID="3387774F-439C-4da1-9A58-9BBC35274CBC">
+            <interfacePair lineName="Copper" srcIndex="3" srcBoundRectIsMoved="1" srcBoundRect_X="1108.183716" srcBoundRect_Y="244.000000" srcOffset_X="-14.000000" srcOffset_Y="4.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="1203.816284" tarBoundRect_Y="244.000000" tarOffset_X="-28.000000" tarOffset_Y="4.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="1" filloption="0" color="16744448" upleftcorner="132,98" width="495" height="318" startpt="0,0" endpt="0,0" borderStyle="1" borderWidth="3" />
+        <shape type="1" filloption="0" color="16744448" upleftcorner="723,151" width="406" height="196" startpt="0,0" endpt="0,0" borderStyle="1" borderWidth="3" />
+    </shapes>
+    <txttips>
+        <txttip left="148" top="113" right="252" bottom="132" content="Area 49.0001" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="1007" top="163" right="1111" bottom="182" content="Area 49.0002" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="253" top="194" right="274" bottom="213" content="L1" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="557" top="145" right="595" bottom="164" content="L1/2" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="556" top="335" right="594" bottom="354" content="L1/2" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="791" top="195" right="812" bottom="214" content="L2" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="1053" top="196" right="1074" bottom="215" content="L2" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="621" top="161" right="717" bottom="180" content="24.0.0.0/24" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="627" top="312" right="723" bottom="331" content="34.0.0.0/24" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="867" top="213" right="963" bottom="232" content="45.0.0.0/24" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="870" top="547" right="1182" bottom="789" content="Implement interface authentication&#x0D;&#x0A;R2:&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; isis authentication-mode md5 huawei&#x0D;&#x0A;&#x0D;&#x0A;R3:&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; isis authentication-mode md5 huawei&#x0D;&#x0A;&#x0D;&#x0A;R4:&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; isis authentication-mode md5 huawei&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; isis authentication-mode md5 huawei" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323073" charset="1" />
+        <txttip left="868" top="800" right="1113" bottom="904" content="Modify interface DIS priority&#x0D;&#x0A;R1:&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; isis dis-priority 127&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; isis dis-priority 127" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323073" charset="1" />
+        <txttip left="869" top="1073" right="1048" bottom="1143" content="Import external route&#x0D;&#x0A;R5:&#x0D;&#x0A;isis 1&#x0D;&#x0A; import-route static" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323073" charset="1" />
+        <txttip left="866" top="915" right="1045" bottom="1054" content="Modify interface cost&#x0D;&#x0A;R1:&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; isis cost 11&#x0D;&#x0A;&#x0D;&#x0A;R4:&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; isis cost 11" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323073" charset="1" />
+        <txttip left="868" top="1155" right="1429" bottom="1328" content="Route-leaking&#x0D;&#x0A;R2:&#x0D;&#x0A;ip ip-prefix R4 index 10 permit 4.4.4.4 32&#x0D;&#x0A;isis 1&#x0D;&#x0A; import-route isis level-2 into level-1 filter-policy ip-prefix R4&#x0D;&#x0A;&#x0D;&#x0A;R3:&#x0D;&#x0A;ip ip-prefix R5 index 10 permit 5.5.5.5 32&#x0D;&#x0A;isis 1&#x0D;&#x0A; import-route isis level-2 into level-1 filter-policy ip-prefix R5" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323073" charset="1" />
+        <txttip left="867" top="448" right="1054" bottom="535" content="display isis peer&#x0D;&#x0A;display isis interface&#x0D;&#x0A;display isis route&#x0D;&#x0A;display isis lsdb&#x0D;&#x0A;display isis brief" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323073" charset="1" />
+        <txttip left="140" top="230" right="227" bottom="249" content="1.1.1.1/32" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="488" top="118" right="575" bottom="137" content="2.2.2.2/32" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="488" top="378" right="575" bottom="397" content="3.3.3.3/32" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="780" top="287" right="867" bottom="306" content="4.4.4.4/32" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="1025" top="287" right="1112" bottom="306" content="5.5.5.5/32" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="320" top="170" right="416" bottom="189" content="12.0.0.0/24" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="319" top="305" right="415" bottom="324" content="13.0.0.0/24" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="166" top="442" right="337" bottom="581" content="R1:&#x0D;&#x0A;sysname R1&#x0D;&#x0A;int loop0&#x0D;&#x0A; ip add 1.1.1.1 32&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; ip add 12.0.0.1 24&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; ip add 13.0.0.1 24" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="165" top="595" right="336" bottom="734" content="R2:&#x0D;&#x0A;sysname R2&#x0D;&#x0A;int loop0&#x0D;&#x0A; ip add 2.2.2.2 32&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; ip add 24.0.0.2 24&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; ip add 12.0.0.2 24" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="171" top="744" right="342" bottom="883" content="R3:&#x0D;&#x0A;sysname R3&#x0D;&#x0A;int loop0&#x0D;&#x0A; ip add 3.3.3.3 32&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; ip add 13.0.0.3 24&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; ip add 34.0.0.3 24" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="170" top="894" right="341" bottom="1067" content="R4:&#x0D;&#x0A;sysname R4&#x0D;&#x0A;int loop0&#x0D;&#x0A; ip add 4.4.4.4 32&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; ip add 34.0.0.4 24&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; ip add 24.0.0.4 24&#x0D;&#x0A;int g0/0/2&#x0D;&#x0A; ip add 45.0.0.4 24" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="169" top="1080" right="464" bottom="1253" content="R5:&#x0D;&#x0A;sysname R5&#x0D;&#x0A;int loop0&#x0D;&#x0A; ip add 5.5.5.5 32&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; ip add 45.0.0.5 24&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; ip add 56.0.0.5 24&#x0D;&#x0A;&#x0D;&#x0A;ip route-static 6.6.6.6 32 56.0.0.6" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="492" top="445" right="845" bottom="652" content="R1:&#x0D;&#x0A;isis 1&#x0D;&#x0A; is-level level-1&#x0D;&#x0A; cost-style wide&#x0D;&#x0A; network-entity 49.0001.0000.0000.0001.00&#x0D;&#x0A;&#x0D;&#x0A;int loop0&#x0D;&#x0A; isis enable 1&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; isis enable 1&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; isis enable 1" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="492" top="661" right="845" bottom="851" content="R2:&#x0D;&#x0A;isis 1&#x0D;&#x0A; cost-style wide&#x0D;&#x0A; network-entity 49.0001.0000.0000.0002.00&#x0D;&#x0A;&#x0D;&#x0A;int loop0&#x0D;&#x0A; isis enable 1&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; isis enable 1&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; isis enable 1" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="493" top="863" right="846" bottom="1053" content="R3:&#x0D;&#x0A;isis 1&#x0D;&#x0A; cost-style wide&#x0D;&#x0A; network-entity 49.0001.0000.0000.0003.00&#x0D;&#x0A;&#x0D;&#x0A;int loop0&#x0D;&#x0A; isis enable 1&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; isis enable 1&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; isis enable 1" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="496" top="1063" right="841" bottom="1305" content="R4:&#x0D;&#x0A;isis 1&#x0D;&#x0A; is-level level-2&#x0D;&#x0A; cost-style wide&#x0D;&#x0A; network-entity 49.0002.0000.0000.0004.00&#x0D;&#x0A;&#x0D;&#x0A;int loop0&#x0D;&#x0A; isis enable 1&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; isis enable 1&#x0D;&#x0A;int g0/0/1&#x0D;&#x0A; isis enable 1&#x0D;&#x0A;int g0/0/2&#x0D;&#x0A; isis enable 1" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="495" top="1317" right="840" bottom="1490" content="R5:&#x0D;&#x0A;isis 1&#x0D;&#x0A; is-level level-2&#x0D;&#x0A; cost-style wide&#x0D;&#x0A; network-entity 49.0002.0000.0000.0005.00&#x0D;&#x0A;&#x0D;&#x0A;int loop0&#x0D;&#x0A; isis enable 1&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; isis enable 1" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-8323200" charset="1" />
+        <txttip left="1206" top="287" right="1293" bottom="306" content="6.6.6.6/32" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="1111" top="217" right="1207" bottom="236" content="56.0.0.0/24" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+        <txttip left="172" top="1266" right="459" bottom="1405" content="R6:&#x0D;&#x0A;sysname R6&#x0D;&#x0A;int loop0&#x0D;&#x0A; ip add 6.6.6.6 32&#x0D;&#x0A;int g0/0/0&#x0D;&#x0A; ip add 56.0.0.6 24&#x0D;&#x0A;&#x0D;&#x0A;ip route-static 0.0.0.0 0 56.0.0.5" fontname="Consolas" fontstyle="0" editsize="110" txtcolor="-16777216" txtbkcolor="-256" charset="1" />
+    </txttips>
+</topo>
